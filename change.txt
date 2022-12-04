@@ -1,0 +1,3 @@
+Add file emailCheck.php
+Add to dashboard inside function loaddata
+fetch('http://localhost/project/emailCheck.php');
