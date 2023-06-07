@@ -3,19 +3,19 @@
   
   session_start();
 
-  // If logged in as user 
-  if(isset($_SESSION['username'])){
-    session_destroy();
-    header("Location: index.php?admin=no");
-    exit();
-  }
+  // // If logged in as user 
+  // if(isset($_SESSION['username'])){
+  //   session_destroy();
+  //   header("Location: index.php?admin=no");
+  //   exit();
+  // }
 
-  // If not logged in as admin
-  else if(!isset($_SESSION['adminName'])){
-    header("Location: admin.php?admin=no");
-    exit();
-  }
-  ?>
+  // // If not logged in as admin
+  // else if(!isset($_SESSION['adminName'])){
+  //   header("Location: admin.php?admin=no");
+  //   exit();
+  // }
+  // ?>
 
 <div class="container">
 

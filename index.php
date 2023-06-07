@@ -25,7 +25,9 @@
           </div>
           <div class="form-check"> &nbsp; </div>
 
-          <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+          <!-- <button type="submit" class="btn btn-primary" name="submit">Login</button> -->
+          <a href="/dashboard"><h5>Login</h5></a>
+          <p>Enter any username or password to login, demo propose only, needs hardware connection for functioning.</p>
           </form>
       </div>
       </div>
@@ -35,12 +37,12 @@
     
     <p class="card-text">
       <ul>
-        <li> <b> How to apply for new farm? </b> </li>
+        <!-- <li> <b> How to apply for new farm? </b> </li>
         <p>Visit apply section by clicking apply menu in navbar, fill required details.</p>
         
-        <p>To know more about hydroponics management system, visit our about us page.</p>
+        <p>To know more about hydroponics management system, visit our about us page.</p> -->
 
-        <p><b>To do list</b></p>
+        <!-- <p><b>To do list</b></p>
         <li>Insert a row of username in variable data</li>
         <li>Variable data of a user deleted after 10 data (100 sec), 1 data per 10 second and average is stored in another table (100 second average)</li>
         <li>100 second average of a user saved in another database</li>
@@ -49,7 +51,7 @@
         <li>Average half hourly data of a user deleted after 48 data (24 hours) and average is stored in another permanent table (Daily average data)</li>
         <li>Send email when error for long time</li>
         <li>Chart of daily average</li>
-        <li>Error table</li>
+        <li>Error table</li> -->
       </ul>
     </p>
    

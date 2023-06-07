@@ -18,6 +18,12 @@
   ?>
 
     <div class="container" style="margin-top: 2vh;">
+    <h2>Hardware connection is required for live data feed.</h2>
+    <p>Flow rate of water, PH and Temperature is shown in table below.</p>
+    <p>Can control motor to add and subtract pH with Add PH & Subtract PH button.</p>
+    <p>Can turn on fan or heater with start cooling and start heating button.</p>
+    <br/>
+    <br/>
     <div class="row">
                 <!-- First table  -->
                 <div class="col-sm">
@@ -130,7 +136,7 @@
           xhr.onload = function(){ 
               if(this.status == 200){
                 var data = JSON.parse(this.responseText); // Convert response text to JSON                
-                table.innerHTML = ' '; //Empty frist table after each iteration
+                table.innerHTML = ' '; //Empty first table after each iteration
                 table2.innerHTML = ' '; //Empty second table after each iteration                
                 table3.innerHTML = ' '; //Empty second table after each iteration               
                 for(var i = 0; i < 5; i++){ 
@@ -193,7 +199,9 @@
                     // Insert into third table
                     var row3 = `<tr>
                             <td>${time}</td>
-                            <td>${data[i].Temperature}</td>
+                            <td>
+                            ${data[i].Temperature}
+                            </td>
                             <td style='background-color: ${color}' class='animate'>${text}</td>
                             </tr>`;
                     table3.innerHTML += row3;
