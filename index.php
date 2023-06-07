@@ -26,7 +26,7 @@
           <div class="form-check"> &nbsp; </div>
 
           <!-- <button type="submit" class="btn btn-primary" name="submit">Login</button> -->
-          <a href="/dashboard"><h5>Login</h5></a>
+          <a href="dashboard.php"><h5>Login</h5></a>
           <p>Enter any username or password to login, demo propose only, needs hardware connection for functioning.</p>
           </form>
       </div>
